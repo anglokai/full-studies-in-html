@@ -1,0 +1,106 @@
+<<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{color: black;
+            }
+            h2{
+            color: aqua;
+            }
+            h3{
+                color: blue;
+            }
+            h4{
+                color: rgb(234, 11, 11);
+            }
+            h5{
+                color: rgb(255, 242, 0);
+            }
+        </style>
+        <link rel="icon" type="image/x-icon" href="images/Language club.jpg">
+    </head>
+    <body>
+        <h1>THIS IS MY HTML SUMMARY</h1>
+        <p>This is about the inordered list</p>
+        <p>This is my hobbies in html</p>
+        <ul>
+            <li>This is about coding</li>
+            <li>This is my dreams</li>
+            <li>This is my studies and likes to my life</li>
+        </ul>
+        <P><u>This is my next from ordred list</u></P>
+        <p><b>This is about math fomula and some of the abbriviation of chemistry</b></p>
+        <ol>
+            <li>Water abbriviation =<i>H<sub>2</sub>O</i></li>
+            <li>This of the ozone =<i>O<sub>3</sub></i></li>
+            <li>This the area of a square =S<sup><i>2</i></sup></li>
+            <li><i>ax<sup>2</sup>+bx<sup>2</sup>=xx<sup>2</sup>+ab<sup>2</sup></i></li>
+        </ol>
+        <!--this how to make a table be like-->
+        <h3>This a page about how to make a table</h3>
+        <table border="1">
+            <tr>
+                <th>Names</th>
+                <th>Age</th>
+                <th>Location</th>
+                <th>School</th>
+            </tr>
+            <td>Ashley</td>
+            <td>14</td>
+            <td>Oia</td>
+            <td>Pual's Girls'school</td>
+            <tr>
+                <td>Lumar</td>
+                <td>15</td>
+                <td>Gordes</td>
+                <td>Eton College</td>
+            </tr>            
+            <tr>
+                <td>Sel</td>
+                <td>16</td>
+                <td>Hallslatt</td>
+                <td>ST Paul's Girl's School</td>
+            </tr>
+            <tr>
+                <td>Kai</td>
+                <td>16</td>
+                <td>Castle combe</td>
+                <td>KCS</td>
+            </tr>
+        </table>
+        <h3>This is to create a link within word</h3>
+        <a href="http://www.facebook.com" target="-blank">This my link of videos</a>
+        <h4>This to make a link within using image</h4>
+        <a href="http://www.youtube.com" target="-blank">
+            <img src="images/pic5.png" alt="a place holder image" width="400" length="300">
+        </a>
+        <h3>This an image on it self</h3>
+        <img src="images/kigali city.jpg" alt="a place holder image" width="400" length="300">
+    <p>This is the front of how to eter in a website</p>
+      <form action="/submit_form" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br> 
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="submit" value="Submit">
+      </form>
+      <h3>This how to make an emoji on html</h3>
+      <p>&#128512;</p>
+      <p>&#128511;</p>
+      <p>&#128516;</p>
+      <h3>This how we can show video on html</h3>
+      <video width="320" height="240" controls>
+        <source src="musics/music 1 by Asake.mp4" type="video/mp4">
+        <source src="musics/music 1 by Asake.mp4" type="video/ogg">
+      </video><br>
+      <video width="320" height="240" controls>
+        <source src="musics/music2 Bana.mp4" type="video/mp4">
+        <source src="musics/music2 Bana.mp4" type="video/ogg">
+      </video>
+    </body>
+</html>
